@@ -1,0 +1,59 @@
+body{
+  background-color: #B6D0E2;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+}
+
+/* intro page */
+.logo{
+  position: absolute;
+  top: 10px;
+}
+
+.btn-login{
+  border-radius:  50%;
+  height: 45px;
+}
+
+/* list search page */
+.dogo-img{
+  object-fit: contain;
+  border-radius: 6.8%;
+}
+.inner-text{
+  font-size: 14px;
+}
+
+.head-sec{
+  background-color: #B6D0E2;
+}
+
+/* details page */
+.dog-info, .info{
+  font-size: 12px;
+}
+
+/* adopt page */
+.inp_name{
+  font-size: 12px;
+}
+
+/* naviagtion bar */
+.nav-bar{
+  position: sticky;
+  bottom: 0px;
+}
+.material-icons{
+  margin-bottom: 20px;
+}
+
+/* router dom */
+
+.nav-active{
+  background-color: #00ccff !important;
+  color: white;
+  font-weight: bolder !important;
+}
